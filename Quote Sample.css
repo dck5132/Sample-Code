@@ -4,6 +4,26 @@ body
     	background-color:#47d2fc;
         font-family:Arial;
 }
+select
+{
+    margin-left:-22px;
+}
+table
+{
+    margin-left:-22px;
+}
+#size1
+{
+    margin-left:0px;
+}
+#size2
+{
+    margin-left:0px;    
+}
+#question
+{
+    margin-left:-20px;
+}
 .content-holder
 {
 	padding: 30px;
