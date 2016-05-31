@@ -1,0 +1,166 @@
+<html>
+
+<head>
+<meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+<meta http-equiv = "content-type" content = "text/html; charset = UTF-8"/>
+<meta name = "author" content = "Denis Kalikin"/>
+<meta name = "definition" content = "Sample Code using HTML/CSS/JS/JQuery"/>
+<title>Sample Page
+</title>
+<link rel = "stylesheet" type = "text/css" href = "Quote Sample.css"/>
+<!--The following two script tags are not self closing for the purpose of browser compatability--> 
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</script>
+<script src = "Quote Sample.js">
+</script>
+
+</head>
+
+<body>
+
+<div id = "heading">
+<H1>Sample Questions
+</H1>
+
+<div class = "content-holder">
+		
+		<div class = "content" id = "content-1" data-id = '1' style = "display: block;">
+                <div id = "help" class = "help-tip">
+				<p>This help tool tip allows users to obtain more information about the question by hovering the mouse over the ? symbol.
+				</p>
+				</div>
+				
+        <p id = "question">Are you a customer or a reseller?
+		</p>
+        <select name = "CustomerType" id = "customerType" required = "true">
+            <option value = "" disabled selected>Select your option</option>
+            <option value = "Customer">Customer</option>
+            <option value = "Reseller">Reseller</option>
+        </select>
+		</div>
+		<div class = "content" id = "content-2" data-id = '2'>
+			<p id = "question">
+            How comfortable are you with AV equipment?
+			</p>
+				<table id = "AVcomfort" class = "tbl">
+					<tr>
+						<td>                    
+						</td>
+                    </tr>
+					<tr>
+						<td>
+						<input type = "checkbox" name = "AVcomfort[]" class = "db" value = "I can hang a TV."/>
+						I can hang a TV.
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type = "checkbox" name = "AVcomfort[]"  class = "db" value = "I can connect AV components to each other."/>
+                        I can connect AV components to each other.
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type = "checkbox" name = "AVcomfort[]" class = "db" value = "I can connect to the internet." />
+                        I can connect to the internet.
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type = "checkbox" name = "AVcomfort[]" class = "other" value = "I'm a novice but have an installer in mind." />
+                        I'm a novice but have an installer in mind.
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<input type = "checkbox" name = "AVcomfort[]" class = "other2" value = "I am a novice and would like you to connect me to an installer" />
+						I'm a novice and would like you to connect me to an installer.
+						</td>
+					</tr>
+				</table>
+		</div>
+		<div class = "content" id = "content-3" data-id = '3'>
+              
+			<p id = "question">
+            How big is your conference room?
+			</p>
+				<table>
+					<tr>
+						<td>
+						<select  name = "size1" id = "size1" required = "true">
+						<option value = "" disabled selected>Select your option</option>
+						<option value = "5">5</option>
+						<option value = "10">10</option>
+						<option value = "15">15</option>
+						<option value = "20">20</option>
+						<option value = "25">25</option>
+						<option value = "30+">30+</option>
+						<option value = "Unknown">Unknown</option>
+						</select>
+						</td>
+						<td id = "X">
+						X
+						</td>
+						<td>
+						<select name = "size2" id = "size2" required = "true">
+						<option value = "" disabled selected>Select your option</option>
+						<option value = "5">5</option>
+						<option value = "10">10</option>
+						<option value = "15">15</option>
+						<option value = "20">20</option>
+						<option value = "25">25</option>
+						<option value = "30+">30+</option>
+						<option value = "Unknown">Unknown</option>
+						</select>
+						</td>
+					</tr>
+				</table>
+		</div>
+		<div class = "content" id = "content-4" data-id = '4'>
+			<p id = "question">
+			Do you have a way to run wires between your
+            <br/> equipment and the floor underneath your table?
+			</p>
+        <div id = "wire">
+						<label>Yes</label>
+						<input type = "radio" class = "wiring" name = "wire" value = "Yes" />
+						<label>No</label>
+						<input type = "radio" class = "wiring" name = "wire" value = "No" />
+						<label>Unknown</label>
+						<input type = "radio" class = "wiring" name = "wire" value = "Unknown" />
+        </div>
+		</div>	
+        <div id = "decision">
+				<table>
+					<tr>
+						<td>
+						<input type = "button" class = "back" value  = "Back"/>
+						</td>
+						<td>
+						<input type = "button" class = "next" value  = "Next"/>
+						</td>
+					</tr>
+				</table>
+		</div>
+	</div>
+    <div class = "end" data-id = '5'>
+			<p id = "question">Congratulations! You are done!
+			<br/>
+			</p>
+			<p id = "question">Your result is :
+			<br/>
+			</p> 
+			<p id = "overallidentifier">
+			Huddle Room ($5K - $10K)
+			</p>
+			<br/>
+            <p id = "customAddon" class = "hidden">This is a unique paragraph that only shows when the final result is unable to be estimated within the set guidelines
+			</p>
+						<input type = "button" class = "edit-previous" value = "Edit Previous Options"/>	
+	</div>
+	</div>
+
+
+</body>
+
+</html>
