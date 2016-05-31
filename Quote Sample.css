@@ -42,6 +42,33 @@ table
 {
 width:300px;
 }
+#heading
+/* centers the heading above the questions*/
+{
+	background: white;
+  	width: 400px;
+  	position: absolute;  
+  	margin: -200px 0 0 -200px;
+  	left: 50%;
+  	top: 50%;
+}
+#question
+{
+    width:500px;
+    margin-left:-20px;
+}
+#overallidentifier
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left:-20px;
+    width: 2000px;
+}
+#customAddon
+{
+    width:500px;
+    margin-left:-20px;
+}
 #size1
 {
     margin-left:0px;
@@ -50,22 +77,8 @@ width:300px;
 {
     margin-left:0px;    
 }
-#question
-{
-    width:500px;
-    margin-left:-20px;
-}
-#heading
-/* centers the heading above the questions*/
-{
-	background: white;
-  	height: 400px;
-  	width: 400px;
-  	position: absolute;  
-  	margin: -200px 0 0 -200px;
-  	left: 50%;
-  	top: 50%;
-}
+
+
 #overallidentifier
 {
     font-size: 40px;
