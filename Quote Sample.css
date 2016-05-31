@@ -36,21 +36,20 @@ table
   	margin: 0 auto;
   	left: 15%;
   	top: 50%;
-    display: none;
+    	display: none;
 }
 .fin
 {
-width:300px;
+	max-width:300px;
 }
 #heading
 /* centers the heading above the questions*/
 {
 	background: black;
-  	width: 400px;
-  	position: absolute;  
-  	margin: -200px 0 0 -200px;
+  	max-width: 400px;
+  	margin: 0 auto;
   	left: 50%;
-  	top: 50%;
+  	top: 15%;
 }
 #question
 {
