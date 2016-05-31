@@ -28,12 +28,13 @@ table
 #heading
 /* centers the heading above the questions*/
 {
-  height: 400px;
-  width: 400px;
-  position: absolute;  
-  margin: -200px 0 0 -200px;
-  left: 50%;
-  top: 50%;
+	background: white;
+  	height: 400px;
+  	width: 400px;
+  	position: absolute;  
+  	margin: -200px 0 0 -200px;
+  	left: 50%;
+  	top: 50%;
 }
 #overallidentifier
 {
