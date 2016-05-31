@@ -1,3 +1,4 @@
+@media handheld {
 body
 {
   color:#ffffff;
@@ -7,6 +8,24 @@ body
 .hidden 
 {
     display:none;
+}
+
+.content 
+{
+    display: none;
+}
+
+.back 
+{
+    display: none;
+}
+.next 
+{
+	display:none;
+}
+.end 
+{
+    display: none;
 }
 .help-tip 
 {
@@ -85,4 +104,5 @@ body
         opacity:100%;
         transform: scale(1);
     }
+}
 }
