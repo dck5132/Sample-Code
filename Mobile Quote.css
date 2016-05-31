@@ -5,6 +5,28 @@ body
     background-color:#47d2fc;
         font-family:Arial;
 }
+.hidden 
+{
+    display:none;
+}
+
+.content 
+{
+    display: none;
+}
+
+.back 
+{
+    display: none;
+}
+.next 
+{
+	display:none;
+}
+.end 
+{
+    display: none;
+}
 .help-tip 
 {
     position: absolute;
