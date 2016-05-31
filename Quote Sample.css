@@ -4,25 +4,10 @@ body
     background-color:#47d2fc;
         font-family:Arial;
 }
-select
-{
-    margin-left:-22px;
-}
-table
-{
-    margin-left:-22px;
-}
-#size1
-{
-    margin-left:0px;
-}
-#size2
-{
-    margin-left:0px;    
-}
+
 #question
 {
-    width:500px;
+    width:auto;
     margin-left:-20px;
 }
 #heading
@@ -30,7 +15,6 @@ table
 {
   height: 400px;
   width: 400px;
-  position: absolute;  
   margin: -200px 0 0 -200px;
   left: 50%;
   top: 50%;
