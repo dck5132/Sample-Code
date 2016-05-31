@@ -1,9 +1,15 @@
+@media all and (max-width: 640px){
+    #site > .wrapper, #footer > .wrapper {
+        margin: 0;
+        padding: 40px;
+        width: auto;
+    }
+
 body 
 { 
   color:#ffffff;
   background-color:#47d2fc;
   font-family:Arial;
-  padding: 40px;
 }
 .content-holder
 {
@@ -17,4 +23,5 @@ top: 50%;
 {
 	width:auto;
     display: none;
+}
 }
