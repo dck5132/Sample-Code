@@ -45,7 +45,7 @@ width:300px;
 #heading
 /* centers the heading above the questions*/
 {
-	background: white;
+	background: black;
   	width: 400px;
   	position: absolute;  
   	margin: -200px 0 0 -200px;
