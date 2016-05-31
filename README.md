@@ -1,2 +1,2 @@
 # Sample-Code
-This is a sample code page
+This repository is for a sample project which uses several web languages to create a quote application
