@@ -28,7 +28,7 @@ table
 #heading
 /* centers the heading above the questions*/
 {
-  height: 400px;
+  height: 300px;
   width: 400px;
   position: absolute;  
   margin: -200px 0 0 -200px;
