@@ -1,8 +1,13 @@
 body
 {
-  color:#ffffff;
-    background-color:#47d2fc;
+  	color:#ffffff;
+    	background-color:#47d2fc;
         font-family:Arial;
+}
+#heading
+{
+	left:50%;
+	top:50%;	
 }
 
 #question
