@@ -4,6 +4,16 @@ body
     	background-color:#47d2fc;
         font-family:Arial;
 }
+.wrapper
+{
+	position: relative;
+  	height: 200px;
+  	width: 60%;
+	 margin: 0 auto;
+  	padding: 20px;
+  	resize: both;
+  	overflow: auto;
+}
 #heading
 {
 	left:50%;
