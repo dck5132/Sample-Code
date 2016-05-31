@@ -1,10 +1,6 @@
-@media all and (max-width: 640px){
-    #site > .wrapper, #footer > .wrapper {
-        margin: 0;
-        padding: 40px;
-        width: auto;
-    }
 
+.wrapper 
+{ width: 100% }
 body 
 { 
   color:#ffffff;
@@ -24,4 +20,4 @@ top: 50%;
 	width:auto;
     display: none;
 }
-}
+
