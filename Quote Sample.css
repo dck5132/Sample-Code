@@ -12,62 +12,6 @@ table
 {
     margin-left:-22px;
 }
-.content-holder
-{
-/*centers everything within the content holder class below the heading*/
-	padding: 30px;
-	margin: 0 auto;
-     	max-width: 700px;
-}
-.content 
-{
-	margin: 0 auto;
-     	max-width: 700px; 
-	display: none;
-}
-.decision
-{
-	margin: 0 auto;
-	max-width: 500px;
-}
-.end 
-{
-	max-width: 500px;
-  	margin: 0 auto;
-  	left: 15%;
-  	top: 50%;
-    	display: none;
-}
-.fin
-{
-	max-width:500px;
-}
-#heading
-/* centers the heading above the questions*/
-{
-	background: black;
-  	max-width: 500px;
-  	margin: 0 auto;
-  	left: 50%;
-  	top: 15%;
-}
-#question
-{
-    width:500px;
-    margin-left:-20px;
-}
-#overallidentifier
-{
-    font-size: 40px;
-    font-weight: bold;
-    margin-left:-20px;
-    width: 2000px;
-}
-#customAddon
-{
-    width:500px;
-    margin-left:-20px;
-}
 #size1
 {
     margin-left:0px;
@@ -76,8 +20,21 @@ table
 {
     margin-left:0px;    
 }
-
-
+#question
+{
+	width: 500px;
+    margin-left:-20px;
+}
+#heading
+/* centers the heading above the questions*/
+{
+  height: 400px;
+  width: 400px;
+  position: absolute;  
+  margin: -200px 0 0 -200px;
+  left: 50%;
+  top: 50%;
+}
 #overallidentifier
 {
     font-size: 40px;
@@ -107,18 +64,54 @@ table
 {
     display:none;
 }
+.content-holder
+{
+/*centers everything within the content holder class below the heading*/
+width: 400px;
+height: 400px;
+position: absolute;
+margin: -15px 0 0 -15px;
+left: 15%;
+top: 50%;
+}
+.content 
+{
+	width:300px;
+    display: none;
+}
+.decision
+{
+width:300px;
+position:absolute;
+}
 
 .back 
 {
-    margin-top: 10px;
+    margin-top:10px;
     display: none;
     float: left;
 }
 .next 
 {
 	display:none;
-    	margin-top: 10px;
-    	margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.end 
+{
+width: 400px;
+height: 400px;
+  position: absolute;
+  
+  /*Centering Method 2*/
+  margin: -15px 0 0 -15px;
+  left: 15%;
+  top: 50%;
+    display: none;
+}
+.fin
+{
+width:300px;
 }
 .edit-previous
 {
