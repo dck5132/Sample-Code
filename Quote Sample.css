@@ -12,7 +12,6 @@ table
 {
     margin-left:-22px;
 }
-
 #size1
 {
     margin-left:0px;
@@ -29,23 +28,24 @@ table
 #heading
 /* centers the heading above the questions*/
 {
-	padding: 30px;
-	margin: 0 auto;
-     	max-width: 700px;
-  	left: 50%;
-  	top: 50%;
+  height: 400px;
+  width: 400px;
+  position: absolute;  
+  margin: -200px 0 0 -200px;
+  left: 50%;
+  top: 50%;
 }
 #overallidentifier
 {
     font-size: 40px;
     font-weight: bold;
-    margin-left: -20px;
-    max-width: 2000px;
+    margin-left:-20px;
+    width: 2000px;
 }
 #customAddon
 {
-    max-width: 500px;
-    margin-left: -20px;
+    width:500px;
+    margin-left:-20px;
 }
 #wire
 {
@@ -101,17 +101,16 @@ table
   	margin: 0 auto;
   	left: 15%;
   	top: 50%;
-    	display: none;
+    display: none;
 }
 .fin
 {
-	margin: 0 auto;
-	max-width:300px;
+width:300px;
 }
 .edit-previous
 {
-    	margin-top: 10px;
-    	margin-left: -20px;
+    margin-top: 10px;
+    margin-left: -20px;
 }
 .help-tip 
 {
