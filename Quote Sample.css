@@ -1,0 +1,198 @@
+body
+{
+  color:#ffffff;
+    background-color:#47d2fc;
+        font-family:Arial;
+}
+select
+{
+    margin-left:-22px;
+}
+table
+{
+    margin-left:-22px;
+}
+#size1
+{
+    margin-left:0px;
+}
+#size2
+{
+    margin-left:0px;    
+}
+#question
+{
+    width:500px;
+    margin-left:-20px;
+}
+#heading
+/* centers the heading above the questions*/
+{
+  height: 400px;
+  width: 400px;
+  position: absolute;  
+  margin: -200px 0 0 -200px;
+  left: 50%;
+  top: 50%;
+}
+#overallidentifier
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left:-20px;
+    width: 2000px;
+}
+#customAddon
+{
+    width:500px;
+    margin-left:-20px;
+}
+#wire
+{
+    margin-left:-22px;
+}
+#X
+{
+    font-size:20px;
+    font-weight:bold;
+}
+.tbl
+{
+    width:500px;
+}
+.hidden 
+{
+    display:none;
+}
+.content-holder
+{
+/*centers everything within the content holder class below the heading*/
+width: 400px;
+height: 400px;
+position: absolute;
+margin: -15px 0 0 -15px;
+left: 15%;
+top: 50%;
+}
+.content 
+{
+	width:300px;
+    display: none;
+}
+.decision
+{
+width:300px;
+position:absolute;
+}
+
+.back 
+{
+    margin-top:10px;
+    display: none;
+    float: left;
+}
+.next 
+{
+	display:none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.end 
+{
+width: 400px;
+height: 400px;
+  position: absolute;
+  
+  /*Centering Method 2*/
+  margin: -15px 0 0 -15px;
+  left: 15%;
+  top: 50%;
+    display: none;
+}
+.fin
+{
+width:300px;
+}
+.edit-previous
+{
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.help-tip 
+{
+    position: absolute;
+    left: 340px;
+    text-align: center;
+    background-color: #00008b;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+}
+/* help tool tip display and animation settings*/
+.help-tip:before 
+{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+.help-tip:hover p 
+{
+    display:block;
+    transform-origin: 100% 0%;
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+}
+.help-tip p 
+{
+    /* The tooltip */
+    display: none;
+    text-align: left;
+    background-color: #1E2021;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    right: -4px;
+    color: #FFF;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.help-tip p:before 
+{
+    /* The pointer of the tooltip */
+    position: absolute;
+    content:'';
+    width:0;
+    height: 0;
+    border:6px solid transparent;
+    border-bottom-color:#1E2021;
+    right:10px;
+    top:-12px;
+}
+.help-tip p:after
+{
+    /* Prevents the tooltip from being hidden */
+    width:100%;
+    height:40px;
+    content:'';
+    position: absolute;
+    top:-40px;
+    left:0;
+}
+/* CSS animation */
+ @-webkit-keyframes fadeIn 
+ {
+    0% 
+    {
+        opacity:0;
+        transform: scale(0.6);
+    }
+    100% 
+    {
+        opacity:100%;
+        transform: scale(1);
+    }
+}
